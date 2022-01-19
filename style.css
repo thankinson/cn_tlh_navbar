@@ -89,7 +89,7 @@ li a:hover {
   background-color: #111;
 }
 .wrapper {
-  display: flex;
+  
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
@@ -97,6 +97,9 @@ li a:hover {
 
 /* Flex Container */
 .flex-nav ul {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
   border: 1px solid black;
   list-style: none;
   margin: 0;
