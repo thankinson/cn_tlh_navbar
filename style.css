@@ -121,6 +121,9 @@ li a:hover {
   .flex-nav .social {
     width: 25%;
   }
+  a {
+    font-size: 80px;
+  }
 }
 
 @media all and (max-width: 500px) {
@@ -129,6 +132,9 @@ li a:hover {
   }
   .flex-nav .social {
     width: 25%;
+  }
+  a {
+    font-size: 30px;
   }
 }
 /* 
