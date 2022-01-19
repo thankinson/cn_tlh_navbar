@@ -9,6 +9,18 @@ html {
   box-sizing: inherit;
 }
 
+nav{
+  position: relative;
+  animation: movediv 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes movediv{
+  from {top: 0px;}
+  to {top: 300px;;}
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
