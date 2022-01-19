@@ -9,6 +9,11 @@ html {
   box-sizing: inherit;
 }
 
+div{
+  justify-content: center;
+}
+
+
 nav{
   position: relative;
   animation: movediv 4s;
