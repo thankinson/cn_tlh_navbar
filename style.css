@@ -103,12 +103,27 @@ li a:hover {
   padding: 0;
 }
 
+.flex-nav ul li {
+  flex-grow: 1;
+}
+
 @media all and (max-width: 1000px) {
+  .flex-nav ul li {
+    width: 50%;
+  }
+  .flex-nav .social {
+    width: 25%;
+  }
 }
 
 @media all and (max-width: 500px) {
+  .flex-nav ul li {
+    width: 100%;
+  }
+  .flex-nav .social {
+    width: 25%;
+  }
 }
-
 /* 
 /* Some CSS Setup - nothing to do with flexbox */
 /* html {
